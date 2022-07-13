@@ -6,7 +6,7 @@ body {
   margin: 0px;
   padding: 30px;
   overscroll-behavior: none;
-  background-image: url("../imgs/outerspace.gif");
+  background-image: url("outerspace.gif");
   background-size: cover;
   background-attachment: fixed;
 }

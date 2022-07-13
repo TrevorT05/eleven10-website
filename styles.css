@@ -5,7 +5,7 @@
 body {
   margin: 0px;
   overscroll-behavior: none;
-  background-image: url("imgs/outerspace.gif");
+  background-image: url("outerspace.gif");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -44,17 +44,17 @@ body {
 }
 
 .pic#one {
-  background-image: url("imgs/dylanbackground.png");
+  background-image: url("dylanbackground.png");
   background-size: cover;
 }
 
 .pic#two {
-  background-image: url("imgs/colbybackground.png");
+  background-image: url("colbybackground.png");
   background-size: cover;
 }
 
 .pic#three {
-  background-image: url("imgs/zackbackground.png");
+  background-image: url("zackbackground.png");
   background-size: cover;
 }
 

@@ -1,0 +1,68 @@
+:root {
+
+}
+
+body {
+  margin: 0px;
+}
+
+.body {
+  background-image: url("imgs/outerspace.gif");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 175px 1fr 150px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  
+}
+
+.content {
+  padding: 0px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic, img {
+  width: calc(100vw / 3 - 80px);
+  height: auto;
+}
+
+.pic#one {
+  background-image: url("imgs/dylanbackground.png");
+  background-size: cover;
+}
+
+.pic#two {
+  background-image: url("imgs/colbybackground.png");
+  background-size: cover;
+}
+
+.pic#three {
+  background-image: url("imgs/zackbackground.png");
+  background-size: cover;
+}
+
+#dylan, #colby, #zack {
+  position: relative;
+  opacity: 1;
+  -webkit-transition: -webkit-transform 0.2s;
+	transition: -webkit-transform 0.2s;
+	transition: transform 0.2s;
+	transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+#dylan:hover, #colby:hover, #zack:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

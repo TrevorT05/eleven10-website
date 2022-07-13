@@ -22,6 +22,8 @@ body {
 .content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 12px;
 }
 
@@ -30,12 +32,17 @@ body {
   font-weight: bold;
 }
 
+p {
+  margin-top: 0px;
+}
+
 .return {
   background-color: #c665ff;
   color: white;
   position: relative;
-  width: 100px;
+  width: 200px;
   height: 40px;
+  margin-top: 24px;
   border: 0;
   border-radius: 8px;
   -webkit-transition: -webkit-transform 0.2s;
@@ -48,3 +55,10 @@ body {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+.social {
+  width: 100px;
+  height: auto;
+  justify-self: center;
+}
+
